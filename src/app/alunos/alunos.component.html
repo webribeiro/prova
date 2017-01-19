@@ -1,7 +1,20 @@
+
+
 <section class="lista">
+
+     
   <div class="panel panel-default">
-                <div class="panel-heading">Lista de Alunos</div>
+                <div class="panel-heading">Lista de Alunos
+                     <a (click)="logout()" href="/login" class="right btn sair">Sair</a>
+                </div>
                 <div class="panel-body">
+                     <form class="form-inline">
+
+                <div class="form-group  has-feedback" id="filter">
+                  <input type="text" class="form-control" placeholder="Filtro">
+                </div>
+              </form>
+                    <hr>
   <ul>
       <li *ngFor="let aluno of alunos">
           {{ aluno.nome }}

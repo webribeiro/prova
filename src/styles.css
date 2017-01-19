@@ -60,4 +60,17 @@ body {
 .lista ul li {
 	margin-bottom: 10px;
 }
+.login input:focus {
+	border-bottom: 1px solid #704c76 !important;
+	box-shadow: 0 1px 0 0 #704c76 !important;
+}
+.input-field label {
+	color: #704c76 !important;
+}
+.btn, .btn-large {
+	background-color: #704c76 !important;
+}
+.btn.sair {
+	background: none !important;
+}
 
