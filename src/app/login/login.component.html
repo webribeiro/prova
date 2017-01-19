@@ -1,0 +1,30 @@
+<section class="login">
+  <div class="panel panel-default">
+                <div class="panel-heading">Formulário de Login</div>
+                <div class="panel-body">
+<div class="row">
+    <div class="input-field col s12">
+      <input [(ngModel)]="usuario.nome" id="usuario" type="text" class="validate">
+      <label class="active" for="usuario">Usuário</label>
+    </div>
+</div>
+
+<div class="row">
+    <div class="input-field col s12">
+      <input [(ngModel)]="usuario.senha" id="senha" type="password" class="validate">
+      <label class="active" for="senha">Senha</label>
+    </div>
+</div>
+
+<button class="btn btn-default" 
+    type="submit" name="action" (click)="fazerLogin()">
+    Login
+  </button>
+                </div>
+
+
+</div>
+
+
+
+</section>

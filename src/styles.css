@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/materialize-css/dist/css/materialize.css";
+
+body {
+  background: #310f32;
+}
+.login .panel-default {
+	margin: 200px auto 0 auto !important;
+}
+.lista .panel-default {
+	margin: 10px auto 0 auto !important;
+}
+.panel-heading {
+	background: #6d4871 !important;
+	margin-bottom: 0;
+	font-size: 18px;
+    padding: 20px;
+	color: #faecfb !important;
+
+}
+.login .panel-body {
+	background: #f1f1f2 !important;
+	padding: 20px !important;
+}
+.login form input.form-control {
+	border: 1px solid #e7e7e7 !important;
+	background: #f0eef1 !important;
+	color: #b4b2b5 !important;
+	font-weight: bold !important;
+	outline: none !important;
+}
+.login form .glyphicon{
+	color: #b4b2b5 !important;
+}
+.login form .btn {
+	background: #704c76 !important;
+	color: #f5dff6 !important;
+	border: none;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.login form .btn:hover {
+	background: #6d4871;
+}
+.login form a {
+	color: #989898;
+	text-decoration: none;
+}
+.lista .panel-default {
+	margin: 200px auto 0 auto !important;
+}
+.lista .panel-default {
+	margin: 10px auto 0 auto !important;
+}
+
+.lista .panel-body {
+	background: #f1f1f2 !important;
+	padding: 20px !important;
+}
+.lista ul li {
+	margin-bottom: 10px;
+}
+
